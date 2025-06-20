@@ -18,7 +18,7 @@ connectCloudinary();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"],
+    origin: ["https://ecommerce-sooty-chi-66.vercel.app", "https://ecommerce-hwbq.vercel.app"],
     credentials: true,
   })
 );
